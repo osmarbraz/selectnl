@@ -77,7 +77,7 @@ public class Principal {
      */
     public static int selectNL(int A[], int p, int r, int i) {
         if (p==r){                                  //Theta(1)
-            return A[i];                            //O(1)
+            return A[p];                            //O(1)
         }   
         int q = particione(A, p, r);                //Theta(n)
         int k = q - p + 1;                          //Theta(n)

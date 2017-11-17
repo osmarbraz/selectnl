@@ -108,8 +108,17 @@ public class Principal {
 
         //Posição do i-ésimo termo
         int i = 1;
-        int menor = selectNL(A, 1, r, i);
+        int menor = selectNL(A, 1, r, i);        
+        System.out.println("1o menor:" + menor);        
         
-        System.out.println("Menor:" + menor);        
+        //Posição do i-ésimo termo
+        i = 3;
+        menor = selectNL(A, 1, r, i);        
+        System.out.println("2o Menor:" + menor);
+
+        //Posição do maior termo
+        i = r;
+        menor = selectNL(A, 1, r, i);
+        System.out.println("no maior:" + menor);                 
     }    
 }

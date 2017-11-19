@@ -32,6 +32,7 @@ public class Principal {
         
     /**
      * Realiza a troca de posição de dois elementos do vetor.
+     * 
      * @param A Vetor que contem os dados
      * @param i Primeira posição de troca
      * @param j Segunda posição de torca
@@ -44,6 +45,7 @@ public class Principal {
 
     /**
      * Particione encontra o pivo.
+     * 
      * Complexidade de tempo Theta(n).
      * T(n) = Theta(2n + 4) + O(2n) = Theta(n) 
      * Slide 68.     
@@ -69,6 +71,7 @@ public class Principal {
         
     /**
      * Recebe um vetor A[1...n] e devolve o valor do i-ésimo menor elemento de A.
+     * 
      * A complexidade de tempo no pior caso 
      * n = r - p + 1    
      * T(n) = max{T(k-1), T(n-k)} + Theta(n)
@@ -100,6 +103,7 @@ public class Principal {
     }
 
     public static void main(String[] args) {
+        
         //Vetor dos dados    
         int A[] = {50, 70, 60, 90, 10, 30, 20, 40};
 
